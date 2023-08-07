@@ -1,0 +1,15 @@
+.eventContaner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 170px 0;
+    background-color: #fefcfa;
+}
+.event-box{
+    width: 1200px;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}

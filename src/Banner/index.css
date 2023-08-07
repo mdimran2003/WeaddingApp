@@ -1,0 +1,63 @@
+.banner{
+    height: 800px;
+    background-image: url("./images/homeHero_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 180px;
+}
+.banner-containt::before{
+    content: '';
+    height: 540px;
+    width: 540px;
+   background-image: url("/src/Banner/images/homeHero_2.jpg");
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    animation: rotare infinite 30s ;
+}
+@keyframes rotare {
+   100%{
+    transform: rotate(360deg);
+   }
+}
+.big-circle{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 36%;
+    left: 16%;
+}
+.big-circle::after{
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    position: absolute;
+    top: 8%;
+    left: 16%;
+       
+}
+.big-circle::before{
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    position: absolute;
+    top: 8%;
+    right: 17%;
+    
+}
+.big-circle p{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.big-circle h1{
+    font-size: 67px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #e9e9e9;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}

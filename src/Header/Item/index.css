@@ -1,0 +1,9 @@
+ li{
+    padding: 39px 19px;
+    font-size: 16px;
+    color: #002e5b;
+    cursor: pointer;
+}
+ li:hover{
+    color: rgb(146, 12, 146);
+}

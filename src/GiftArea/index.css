@@ -1,0 +1,50 @@
+.giftSection{
+    padding: 170px 280px;
+    height: 587px;
+    background-image:url('/public/gft.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+.giftSection::before{
+    content: '';
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0),rgba(255,255,255,0));
+}
+.gift-area h3{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #362d2b;
+    font-family: "Playfair Display",serif;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+.gift-area p{
+    color: #362d2b;
+    font-size: 30px;
+    margin-bottom: 60px;
+    line-height: 1.3;
+}
+.gift-area button{
+    background: #800098;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 30px 44px;
+    border-radius: 5px;
+    min-width: 150px;
+    border: none;
+}

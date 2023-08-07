@@ -1,0 +1,42 @@
+.eventContent-box{
+    flex: 1;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+}
+.eventContent-box h4{
+    color: #362d2b;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.eventContent-box .dateP{
+    font-family: "Playfair Display",serif;
+    color: #362d2b;
+    font-size: 20px;
+    margin-bottom: 54px;
+}
+.eventContent-box img{
+    position: relative;
+    margin-bottom: 43px;
+    border: 10px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+}
+.eventContent-box::before{
+    content: '';
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    background-image: url('/public/eventBgImg.webp');
+    top: 25%;
+    right: -45%;
+    background-repeat: no-repeat;
+}
+.eventContent-box span{
+    color: #daad9e;
+    letter-spacing: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+}
